@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6413EF1EF310DD00592DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615B1EEF09F300E5CADB /* Main.storyboard */; };
+		9B6414011EF3158100592DF2 /* Beatles Light Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */; };
+		9BBC47401F0AE7970043FDBC /* 196.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC473F1F0AE7970043FDBC /* 196.png */; };
+		9BE461581EEF09F300E5CADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461571EEF09F200E5CADB /* AppDelegate.swift */; };
+		9BE4615A1EEF09F300E5CADB /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461591EEF09F300E5CADB /* StartController.swift */; };
+		9BE4615F1EEF09F300E5CADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4615E1EEF09F300E5CADB /* Assets.xcassets */; };
+		9BE461621EEF09F300E5CADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */; };
+		9BE4616D1EEF09F500E5CADB /* SimoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4616C1EEF09F500E5CADB /* SimoneTests.swift */; };
+		9BE461781EEF09F500E5CADB /* SimoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE461771EEF09F500E5CADB /* SimoneUITests.swift */; };
+		9BF0BD051F0A015E00A6E93B /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BCFC1F0A015E00A6E93B /* reset.png */; };
+		9BF0BD061F0A015E00A6E93B /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BCFD1F0A015E00A6E93B /* play.png */; };
+		9BF0BD071F0A015E00A6E93B /* high.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BCFE1F0A015E00A6E93B /* high.png */; };
+		9BF0BD081F0A015E00A6E93B /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BCFF1F0A015E00A6E93B /* new.png */; };
+		9BF0BD091F0A015E00A6E93B /* ring.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD001F0A015E00A6E93B /* ring.png */; };
+		9BF0BD0A1F0A015E00A6E93B /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD011F0A015E00A6E93B /* b2.png */; };
+		9BF0BD0B1F0A015E00A6E93B /* b8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD021F0A015E00A6E93B /* b8.png */; };
+		9BF0BD0C1F0A015E00A6E93B /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD031F0A015E00A6E93B /* bar.png */; };
+		9BF0BD0D1F0A015E00A6E93B /* simone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0BD041F0A015E00A6E93B /* simone.png */; };
+		9BF0BD0F1F0A077700A6E93B /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD0E1F0A077700A6E93B /* GameController.swift */; };
+		9BF0BD111F0A07B100A6E93B /* WrongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD101F0A07B100A6E93B /* WrongController.swift */; };
+		9BF0BD131F0A084B00A6E93B /* SimoneBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */; };
+		9BF0BD151F0A09E700A6E93B /* SingletonShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BE461691EEF09F500E5CADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE4614C1EEF09F100E5CADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE461531EEF09F200E5CADB;
+			remoteInfo = Simone;
+		};
+		9BE461741EEF09F500E5CADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE4614C1EEF09F100E5CADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BE461531EEF09F200E5CADB;
+			remoteInfo = Simone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beatles Light Light.ttf"; sourceTree = "<group>"; };
+		9BBC473F1F0AE7970043FDBC /* 196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 196.png; path = icons/196.png; sourceTree = "<group>"; };
+		9BE461541EEF09F200E5CADB /* Simone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE461571EEF09F200E5CADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BE461591EEF09F300E5CADB /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		9BE4615C1EEF09F300E5CADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BE4615E1EEF09F300E5CADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BE461611EEF09F300E5CADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BE461631EEF09F300E5CADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE461681EEF09F500E5CADB /* SimoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE4616C1EEF09F500E5CADB /* SimoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimoneTests.swift; sourceTree = "<group>"; };
+		9BE4616E1EEF09F500E5CADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE461731EEF09F500E5CADB /* SimoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BE461771EEF09F500E5CADB /* SimoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimoneUITests.swift; sourceTree = "<group>"; };
+		9BE461791EEF09F500E5CADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF0BCFC1F0A015E00A6E93B /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reset.png; path = images/reset.png; sourceTree = "<group>"; };
+		9BF0BCFD1F0A015E00A6E93B /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = images/play.png; sourceTree = "<group>"; };
+		9BF0BCFE1F0A015E00A6E93B /* high.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = high.png; path = images/high.png; sourceTree = "<group>"; };
+		9BF0BCFF1F0A015E00A6E93B /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = new.png; path = images/new.png; sourceTree = "<group>"; };
+		9BF0BD001F0A015E00A6E93B /* ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ring.png; path = images/ring.png; sourceTree = "<group>"; };
+		9BF0BD011F0A015E00A6E93B /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b2.png; path = images/b2.png; sourceTree = "<group>"; };
+		9BF0BD021F0A015E00A6E93B /* b8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b8.png; path = images/b8.png; sourceTree = "<group>"; };
+		9BF0BD031F0A015E00A6E93B /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = images/bar.png; sourceTree = "<group>"; };
+		9BF0BD041F0A015E00A6E93B /* simone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = simone.png; path = images/simone.png; sourceTree = "<group>"; };
+		9BF0BD0E1F0A077700A6E93B /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		9BF0BD101F0A07B100A6E93B /* WrongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrongController.swift; sourceTree = "<group>"; };
+		9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimoneBrain.swift; sourceTree = "<group>"; };
+		9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonShared.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BE461511EEF09F200E5CADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE461651EEF09F500E5CADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE461701EEF09F500E5CADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6413F01EF3153000592DF2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9B6414001EF3158100592DF2 /* Beatles Light Light.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		9B6413F11EF3153900592DF2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9BBC473F1F0AE7970043FDBC /* 196.png */,
+				9BF0BCFC1F0A015E00A6E93B /* reset.png */,
+				9BF0BCFD1F0A015E00A6E93B /* play.png */,
+				9BF0BCFE1F0A015E00A6E93B /* high.png */,
+				9BF0BCFF1F0A015E00A6E93B /* new.png */,
+				9BF0BD001F0A015E00A6E93B /* ring.png */,
+				9BF0BD011F0A015E00A6E93B /* b2.png */,
+				9BF0BD021F0A015E00A6E93B /* b8.png */,
+				9BF0BD031F0A015E00A6E93B /* bar.png */,
+				9BF0BD041F0A015E00A6E93B /* simone.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9BE4614B1EEF09F000E5CADB = {
+			isa = PBXGroup;
+			children = (
+				9BE461561EEF09F200E5CADB /* Simone */,
+				9BE4616B1EEF09F500E5CADB /* SimoneTests */,
+				9BE461761EEF09F500E5CADB /* SimoneUITests */,
+				9BE461551EEF09F200E5CADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BE461551EEF09F200E5CADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE461541EEF09F200E5CADB /* Simone.app */,
+				9BE461681EEF09F500E5CADB /* SimoneTests.xctest */,
+				9BE461731EEF09F500E5CADB /* SimoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BE461561EEF09F200E5CADB /* Simone */ = {
+			isa = PBXGroup;
+			children = (
+				9BE461851EEF0C5D00E5CADB /* Support */,
+				9BE461591EEF09F300E5CADB /* StartController.swift */,
+				9BF0BD121F0A084B00A6E93B /* SimoneBrain.swift */,
+				9BF0BD141F0A09E700A6E93B /* SingletonShared.swift */,
+				9BE4615B1EEF09F300E5CADB /* Main.storyboard */,
+				9BF0BD0E1F0A077700A6E93B /* GameController.swift */,
+				9BF0BD101F0A07B100A6E93B /* WrongController.swift */,
+				9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */,
+			);
+			path = Simone;
+			sourceTree = "<group>";
+		};
+		9BE4616B1EEF09F500E5CADB /* SimoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE4616C1EEF09F500E5CADB /* SimoneTests.swift */,
+				9BE4616E1EEF09F500E5CADB /* Info.plist */,
+			);
+			path = SimoneTests;
+			sourceTree = "<group>";
+		};
+		9BE461761EEF09F500E5CADB /* SimoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BE461771EEF09F500E5CADB /* SimoneUITests.swift */,
+				9BE461791EEF09F500E5CADB /* Info.plist */,
+			);
+			path = SimoneUITests;
+			sourceTree = "<group>";
+		};
+		9BE461851EEF0C5D00E5CADB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9B6413F11EF3153900592DF2 /* Images */,
+				9B6413F01EF3153000592DF2 /* Font */,
+				9BE461571EEF09F200E5CADB /* AppDelegate.swift */,
+				9BE4615E1EEF09F300E5CADB /* Assets.xcassets */,
+				9BE461631EEF09F300E5CADB /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BE461531EEF09F200E5CADB /* Simone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE4617C1EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "Simone" */;
+			buildPhases = (
+				9BE461501EEF09F200E5CADB /* Sources */,
+				9BE461511EEF09F200E5CADB /* Frameworks */,
+				9BE461521EEF09F200E5CADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simone;
+			productName = Simone;
+			productReference = 9BE461541EEF09F200E5CADB /* Simone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BE461671EEF09F500E5CADB /* SimoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE4617F1EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneTests" */;
+			buildPhases = (
+				9BE461641EEF09F500E5CADB /* Sources */,
+				9BE461651EEF09F500E5CADB /* Frameworks */,
+				9BE461661EEF09F500E5CADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE4616A1EEF09F500E5CADB /* PBXTargetDependency */,
+			);
+			name = SimoneTests;
+			productName = SimoneTests;
+			productReference = 9BE461681EEF09F500E5CADB /* SimoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BE461721EEF09F500E5CADB /* SimoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BE461821EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneUITests" */;
+			buildPhases = (
+				9BE4616F1EEF09F500E5CADB /* Sources */,
+				9BE461701EEF09F500E5CADB /* Frameworks */,
+				9BE461711EEF09F500E5CADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BE461751EEF09F500E5CADB /* PBXTargetDependency */,
+			);
+			name = SimoneUITests;
+			productName = SimoneUITests;
+			productReference = 9BE461731EEF09F500E5CADB /* SimoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BE4614C1EEF09F100E5CADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = eleves;
+				TargetAttributes = {
+					9BE461531EEF09F200E5CADB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VG39R6Y662;
+						ProvisioningStyle = Automatic;
+					};
+					9BE461671EEF09F500E5CADB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE461531EEF09F200E5CADB;
+					};
+					9BE461721EEF09F500E5CADB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9BE461531EEF09F200E5CADB;
+					};
+				};
+			};
+			buildConfigurationList = 9BE4614F1EEF09F100E5CADB /* Build configuration list for PBXProject "Simone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BE4614B1EEF09F000E5CADB;
+			productRefGroup = 9BE461551EEF09F200E5CADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BE461531EEF09F200E5CADB /* Simone */,
+				9BE461671EEF09F500E5CADB /* SimoneTests */,
+				9BE461721EEF09F500E5CADB /* SimoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BE461521EEF09F200E5CADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6414011EF3158100592DF2 /* Beatles Light Light.ttf in Resources */,
+				9BF0BD071F0A015E00A6E93B /* high.png in Resources */,
+				9BF0BD091F0A015E00A6E93B /* ring.png in Resources */,
+				9BF0BD0C1F0A015E00A6E93B /* bar.png in Resources */,
+				9BF0BD051F0A015E00A6E93B /* reset.png in Resources */,
+				9B6413EF1EF310DD00592DF2 /* Main.storyboard in Resources */,
+				9BF0BD0A1F0A015E00A6E93B /* b2.png in Resources */,
+				9BF0BD081F0A015E00A6E93B /* new.png in Resources */,
+				9BF0BD0B1F0A015E00A6E93B /* b8.png in Resources */,
+				9BE461621EEF09F300E5CADB /* LaunchScreen.storyboard in Resources */,
+				9BE4615F1EEF09F300E5CADB /* Assets.xcassets in Resources */,
+				9BF0BD0D1F0A015E00A6E93B /* simone.png in Resources */,
+				9BBC47401F0AE7970043FDBC /* 196.png in Resources */,
+				9BF0BD061F0A015E00A6E93B /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE461661EEF09F500E5CADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE461711EEF09F500E5CADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BE461501EEF09F200E5CADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF0BD151F0A09E700A6E93B /* SingletonShared.swift in Sources */,
+				9BF0BD131F0A084B00A6E93B /* SimoneBrain.swift in Sources */,
+				9BE4615A1EEF09F300E5CADB /* StartController.swift in Sources */,
+				9BF0BD111F0A07B100A6E93B /* WrongController.swift in Sources */,
+				9BF0BD0F1F0A077700A6E93B /* GameController.swift in Sources */,
+				9BE461581EEF09F300E5CADB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE461641EEF09F500E5CADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE4616D1EEF09F500E5CADB /* SimoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE4616F1EEF09F500E5CADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE461781EEF09F500E5CADB /* SimoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BE4616A1EEF09F500E5CADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE461531EEF09F200E5CADB /* Simone */;
+			targetProxy = 9BE461691EEF09F500E5CADB /* PBXContainerItemProxy */;
+		};
+		9BE461751EEF09F500E5CADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BE461531EEF09F200E5CADB /* Simone */;
+			targetProxy = 9BE461741EEF09F500E5CADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BE4615B1EEF09F300E5CADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE4615C1EEF09F300E5CADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BE461601EEF09F300E5CADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BE461611EEF09F300E5CADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BE4617A1EEF09F500E5CADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE4617B1EEF09F500E5CADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BE4617D1EEF09F500E5CADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG39R6Y662;
+				INFOPLIST_FILE = Simone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.Simone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BE4617E1EEF09F500E5CADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG39R6Y662;
+				INFOPLIST_FILE = Simone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.Simone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BE461801EEF09F500E5CADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.SimoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simone.app/Simone";
+			};
+			name = Debug;
+		};
+		9BE461811EEF09F500E5CADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.SimoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simone.app/Simone";
+			};
+			name = Release;
+		};
+		9BE461831EEF09F500E5CADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.SimoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Simone;
+			};
+			name = Debug;
+		};
+		9BE461841EEF09F500E5CADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weyller.SimoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Simone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BE4614F1EEF09F100E5CADB /* Build configuration list for PBXProject "Simone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE4617A1EEF09F500E5CADB /* Debug */,
+				9BE4617B1EEF09F500E5CADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE4617C1EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "Simone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE4617D1EEF09F500E5CADB /* Debug */,
+				9BE4617E1EEF09F500E5CADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE4617F1EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE461801EEF09F500E5CADB /* Debug */,
+				9BE461811EEF09F500E5CADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BE461821EEF09F500E5CADB /* Build configuration list for PBXNativeTarget "SimoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BE461831EEF09F500E5CADB /* Debug */,
+				9BE461841EEF09F500E5CADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BE4614C1EEF09F100E5CADB /* Project object */;
+}
