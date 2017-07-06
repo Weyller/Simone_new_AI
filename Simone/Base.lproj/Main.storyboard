@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -297,7 +297,7 @@
                                         </variation>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR TURN : 12 s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEF-ch-Qoj">
-                                        <rect key="frame" x="106" y="583" width="163.5" height="47"/>
+                                        <rect key="frame" x="102.5" y="583" width="170.5" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="47" id="Zt8-Vv-e60"/>
                                         </constraints>
@@ -451,7 +451,7 @@
                                                 </constraints>
                                                 <state key="normal" image="new.png"/>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="K2w-B2-ici"/>
+                                                    <segue destination="T2d-Gm-zji" kind="presentation" id="XdH-lO-dAN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN9-1R-g1x">
@@ -461,6 +461,9 @@
                                                     <constraint firstAttribute="width" constant="204" id="Qq3-kD-IBQ"/>
                                                 </constraints>
                                                 <state key="normal" image="high.png"/>
+                                                <connections>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" id="c0p-pc-8pd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -544,4 +547,7 @@
         <image name="ring.png" width="267" height="267"/>
         <image name="simone.png" width="512" height="225"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="XdH-lO-dAN"/>
+    </inferredMetricsTieBreakers>
 </document>

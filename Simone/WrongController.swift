@@ -10,9 +10,6 @@ import UIKit
 
 class WrongController: UIViewController {
 
-    //--------------------
-    
-   // var simoneBrain: SimonBrain!
     
     @IBOutlet weak var scoreLabel: UILabel!
    
@@ -22,7 +19,7 @@ class WrongController: UIViewController {
         super.viewDidLoad()
 
        
-      //  scoreLabel.text = "SCORE : \(simoneBrain.scoreKeeperCounter!)"
+        scoreLabel.text = SingletonShared.SingletonSharedInstance.scoreForWrongInterface
         
     }
 
