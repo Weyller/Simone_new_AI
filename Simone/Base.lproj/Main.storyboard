@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -28,19 +28,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IK9-Xe-tDs">
-                                <rect key="frame" x="0.0" y="0.0" width="374" height="75"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vwz-tv-iLH">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="82"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="82" id="mdN-KQ-WuQ"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simone.png" translatesAutoresizingMaskIntoConstraints="NO" id="NzI-x5-0Fi">
-                                        <rect key="frame" x="87.5" y="0.0" width="200" height="80"/>
+                                        <rect key="frame" x="87.5" y="0.0" width="200" height="76"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="k1i-71-eUo"/>
-                                            <constraint firstAttribute="height" constant="80" id="lI8-QM-5zS"/>
+                                            <constraint firstAttribute="width" constant="200" id="k1i-71-eUo">
+                                                <variation key="heightClass=compact" constant="140"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="76" id="lI8-QM-5zS"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
@@ -50,12 +52,12 @@
                                     <constraint firstItem="Vwz-tv-iLH" firstAttribute="top" secondItem="IK9-Xe-tDs" secondAttribute="top" id="F7U-hV-7Zb"/>
                                     <constraint firstItem="NzI-x5-0Fi" firstAttribute="top" secondItem="IK9-Xe-tDs" secondAttribute="top" id="OeR-de-qqC"/>
                                     <constraint firstItem="Vwz-tv-iLH" firstAttribute="leading" secondItem="IK9-Xe-tDs" secondAttribute="leading" id="bic-Xa-3Hs"/>
-                                    <constraint firstItem="NzI-x5-0Fi" firstAttribute="centerY" secondItem="IK9-Xe-tDs" secondAttribute="centerY" constant="2.5" id="hIV-We-7Ks"/>
+                                    <constraint firstItem="NzI-x5-0Fi" firstAttribute="centerY" secondItem="IK9-Xe-tDs" secondAttribute="centerY" constant="0.5" id="hIV-We-7Ks"/>
                                     <constraint firstAttribute="trailing" secondItem="Vwz-tv-iLH" secondAttribute="trailing" id="p8G-1C-DN3"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-YE-4Xd">
-                                <rect key="frame" x="85.5" y="244" width="204" height="180"/>
+                                <rect key="frame" x="85.5" y="244.5" width="204" height="180"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIGH SCORE : 13" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9A-XB-hQo">
                                         <rect key="frame" x="0.0" y="0.0" width="204" height="28"/>
@@ -100,7 +102,7 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BgF-Sh-Ce8" secondAttribute="bottom" constant="20" id="1cz-G8-Ogn"/>
                             <constraint firstItem="BgF-Sh-Ce8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Ca-nx-gMN"/>
                             <constraint firstItem="IK9-Xe-tDs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hul-ak-T0o"/>
-                            <constraint firstItem="a0p-YE-4Xd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mha-VC-c6D"/>
+                            <constraint firstItem="a0p-YE-4Xd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="1" id="Mha-VC-c6D"/>
                             <constraint firstItem="IK9-Xe-tDs" firstAttribute="centerX" secondItem="a0p-YE-4Xd" secondAttribute="centerX" id="NQM-oc-FgX"/>
                             <constraint firstItem="a0p-YE-4Xd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WoU-ew-raw"/>
                             <constraint firstItem="IK9-Xe-tDs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rs0-Mw-ZCA"/>
@@ -139,23 +141,31 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simone.png" translatesAutoresizingMaskIntoConstraints="NO" id="om0-31-s0N">
-                                                <rect key="frame" x="88" y="0.0" width="200" height="80"/>
+                                                <rect key="frame" x="88" y="0.0" width="174" height="76"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="80" id="3xP-mf-Yul"/>
-                                                    <constraint firstAttribute="width" constant="200" id="l9x-eC-k34"/>
+                                                    <constraint firstAttribute="height" constant="76" id="3xP-mf-Yul"/>
+                                                    <constraint firstAttribute="width" constant="174" id="l9x-eC-k34">
+                                                        <variation key="heightClass=compact" constant="140"/>
+                                                    </constraint>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.93510464500000001" blue="0.052669721269999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="om0-31-s0N" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="8Hp-QM-96s"/>
+                                            <constraint firstItem="om0-31-s0N" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="8Hp-QM-96s">
+                                                <variation key="heightClass=compact" constant="2"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="aka-3b-hk7" secondAttribute="trailing" id="DYF-HJ-dI4"/>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="KzU-ZD-DYz"/>
                                             <constraint firstAttribute="trailing" secondItem="aka-3b-hk7" secondAttribute="trailing" id="WWk-jA-av8"/>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="top" secondItem="kyI-0w-Tf5" secondAttribute="top" id="XNF-TG-NU8"/>
-                                            <constraint firstItem="om0-31-s0N" firstAttribute="centerX" secondItem="kyI-0w-Tf5" secondAttribute="centerX" id="dMj-x3-7K7"/>
+                                            <constraint firstItem="om0-31-s0N" firstAttribute="centerX" secondItem="kyI-0w-Tf5" secondAttribute="centerX" constant="-12.5" id="dMj-x3-7K7">
+                                                <variation key="heightClass=compact" constant="-0.5"/>
+                                            </constraint>
                                             <constraint firstItem="aka-3b-hk7" firstAttribute="leading" secondItem="kyI-0w-Tf5" secondAttribute="leading" id="qwN-qS-zu2"/>
-                                            <constraint firstItem="om0-31-s0N" firstAttribute="centerY" secondItem="kyI-0w-Tf5" secondAttribute="centerY" id="x5n-th-0xo"/>
+                                            <constraint firstItem="om0-31-s0N" firstAttribute="centerY" secondItem="kyI-0w-Tf5" secondAttribute="centerY" constant="-2" id="x5n-th-0xo">
+                                                <variation key="heightClass=compact" constant="0.0"/>
+                                            </constraint>
                                         </constraints>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ring.png" translatesAutoresizingMaskIntoConstraints="NO" id="VtM-S0-7VY">
@@ -165,32 +175,6 @@
                                             <constraint firstAttribute="width" constant="127" id="eNU-ta-UxH"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-qZ-KZK">
-                                        <rect key="frame" x="163" y="485" width="48" height="47"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="48" id="BAt-Ir-1zP"/>
-                                            <constraint firstAttribute="height" constant="47" id="Cic-VW-mZL"/>
-                                            <constraint firstAttribute="height" constant="47" id="G0l-eo-Nbt"/>
-                                            <constraint firstAttribute="width" constant="48" id="oCp-Yi-gsW"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="37"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="Cic-VW-mZL"/>
-                                                <exclude reference="oCp-Yi-gsW"/>
-                                            </mask>
-                                        </variation>
-                                        <variation key="heightClass=compact">
-                                            <mask key="constraints">
-                                                <exclude reference="BAt-Ir-1zP"/>
-                                                <include reference="Cic-VW-mZL"/>
-                                                <exclude reference="G0l-eo-Nbt"/>
-                                                <include reference="oCp-Yi-gsW"/>
-                                            </mask>
-                                        </variation>
-                                    </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5ud-wQ-QUi">
                                         <rect key="frame" x="45" y="120" width="300" height="300"/>
                                         <subviews>
@@ -297,13 +281,43 @@
                                         </variation>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR TURN : 12 s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEF-ch-Qoj">
-                                        <rect key="frame" x="102.5" y="583" width="170.5" height="47"/>
+                                        <rect key="frame" x="106" y="583" width="163.5" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="47" id="Zt8-Vv-e60"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-qZ-KZK">
+                                        <rect key="frame" x="155" y="476" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="BAt-Ir-1zP"/>
+                                            <constraint firstAttribute="height" constant="47" id="Cic-VW-mZL">
+                                                <variation key="heightClass=compact" constant="65"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="65" id="G0l-eo-Nbt"/>
+                                            <constraint firstAttribute="width" constant="48" id="oCp-Yi-gsW">
+                                                <variation key="heightClass=compact" constant="65"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="BeatlesLightLight" family="Beatles Light" pointSize="60"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Cic-VW-mZL"/>
+                                                <exclude reference="oCp-Yi-gsW"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=compact">
+                                            <mask key="constraints">
+                                                <exclude reference="BAt-Ir-1zP"/>
+                                                <include reference="Cic-VW-mZL"/>
+                                                <exclude reference="G0l-eo-Nbt"/>
+                                                <include reference="oCp-Yi-gsW"/>
+                                            </mask>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -415,22 +429,30 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simone.png" translatesAutoresizingMaskIntoConstraints="NO" id="1iZ-rs-23O">
-                                                <rect key="frame" x="87" y="0.0" width="200" height="80"/>
+                                                <rect key="frame" x="87" y="0.0" width="174" height="76"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="200" id="gAT-dC-LXD"/>
-                                                    <constraint firstAttribute="height" constant="80" id="grQ-OA-N34"/>
+                                                    <constraint firstAttribute="width" constant="174" id="gAT-dC-LXD">
+                                                        <variation key="heightClass=compact" constant="140"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="height" constant="76" id="grQ-OA-N34"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.93510464500000001" blue="0.052669721269999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="top" secondItem="9En-7H-TEd" secondAttribute="top" id="8Ld-83-Pd8"/>
-                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="centerY" secondItem="9En-7H-TEd" secondAttribute="centerY" id="QJN-ft-AC6"/>
+                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="centerY" secondItem="9En-7H-TEd" secondAttribute="centerY" constant="-2" id="QJN-ft-AC6">
+                                                <variation key="heightClass=compact" constant="0.0"/>
+                                            </constraint>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="leading" secondItem="9En-7H-TEd" secondAttribute="leading" id="Y9b-KO-7jx"/>
                                             <constraint firstAttribute="trailing" secondItem="QHs-LL-bKZ" secondAttribute="trailing" id="ada-Se-FWU"/>
                                             <constraint firstAttribute="trailing" secondItem="QHs-LL-bKZ" secondAttribute="trailing" id="fbe-WZ-tKo"/>
-                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="top" secondItem="9En-7H-TEd" secondAttribute="top" id="kiD-Xn-hrE"/>
-                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="centerX" secondItem="9En-7H-TEd" secondAttribute="centerX" id="oYN-h2-I0f"/>
+                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="top" secondItem="9En-7H-TEd" secondAttribute="top" id="kiD-Xn-hrE">
+                                                <variation key="heightClass=compact" constant="2"/>
+                                            </constraint>
+                                            <constraint firstItem="1iZ-rs-23O" firstAttribute="centerX" secondItem="9En-7H-TEd" secondAttribute="centerX" constant="-13.5" id="oYN-h2-I0f">
+                                                <variation key="heightClass=compact" constant="-0.5"/>
+                                            </constraint>
                                             <constraint firstItem="QHs-LL-bKZ" firstAttribute="top" secondItem="9En-7H-TEd" secondAttribute="top" id="sqO-Dh-jlZ"/>
                                         </constraints>
                                     </view>
@@ -548,6 +570,6 @@
         <image name="simone.png" width="512" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XdH-lO-dAN"/>
+        <segue reference="8Gy-mv-8c4"/>
     </inferredMetricsTieBreakers>
 </document>
