@@ -17,8 +17,9 @@ class StartController: UIViewController {
     //=======================================
     override func viewDidLoad() {
         super.viewDidLoad()
-        SingletonShared.SingletonSharedInstance.manageScore()
-        highScoreLabel.text = "HIGHSCORE : \(SingletonShared.SingletonSharedInstance.highScore!)"
+        let savedScore = SingletonShared.SingletonSharedInstance.savedHighscore.object(forKey: "score")!
+        highScoreLabel.text = "HIGHSCORE : \(String(describing: savedScore))"
+
         //------------------
         
     }
@@ -27,7 +28,13 @@ class StartController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    //---------------------------------------
+    @IBAction func resetHighscore(_ sender: UIButton) {
+        
+        highScoreLabel.text = "HIGHSCORE : 0"
+        SingletonShared.SingletonSharedInstance.resetHighscore()
+    }
+    
 
 }
 
