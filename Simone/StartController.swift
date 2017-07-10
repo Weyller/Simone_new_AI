@@ -13,6 +13,14 @@ class StartController: UIViewController {
     
     @IBOutlet weak var highScoreLabel: UILabel!
     
+    //--------------------------------------
+    @IBAction func goToWebPage(_ sender: UIButton) {
+        if let url = NSURL(string: "http://www.mariogeneau.com"){
+            UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        }
+        
+        
+    }
     
     //=======================================
     override func viewDidLoad() {

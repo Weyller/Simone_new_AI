@@ -98,6 +98,9 @@
                                 <state key="normal" title="mario.GENEAU.com">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToWebPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uVC-1z-wOg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137254901957" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -284,7 +287,7 @@
                                         </variation>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEF-ch-Qoj">
-                                        <rect key="frame" x="190.5" y="583" width="0.0" height="47"/>
+                                        <rect key="frame" x="189.5" y="583" width="0.0" height="47"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="47" id="Zt8-Vv-e60"/>
                                         </constraints>
