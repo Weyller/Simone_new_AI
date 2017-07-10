@@ -13,13 +13,6 @@ import UIKit
 class SimonBrain{
     
     //---------------------------------
-    //Variables
-    
-//    var colorTracker: Int!
-//    var userTurnToPlay: Bool!
-//    var scoreKeeperCounter: Int!
-//    var theScoreKeeper = ""
-//    var randomButtonChooser: UIButton!
 
     var gameColors: [UIButton]
     var colorIndex: Int!
@@ -29,10 +22,14 @@ class SimonBrain{
     var colorToHighlight: UIButton!
     var arrCopyOfRandomColorToCompare: [UIButton]!
     var scoreKeeperCounter: Int!
+    var timerLabel: UILabel!
+    var aTimer: Timer!
+    
     //-------------------------------
     
-    init(gameColors: [UIButton]) {
+    init(gameColors: [UIButton], timerLabel: UILabel) {
         self.gameColors = gameColors
+        self.timerLabel = timerLabel
     }
     
     
@@ -77,6 +74,19 @@ class SimonBrain{
         else
         {
             userTurnToPlay = true
+            
+            var sec = 30
+            aTimer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true){_ in
+                self.timerLabel.text = "YOUR TURN : \(sec) s"
+                if sec == 0
+                {
+                    self.aTimer.invalidate()
+                }
+                sec -= 1
+            }
+            
+            
+            
         }
         
     }
