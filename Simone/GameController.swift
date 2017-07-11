@@ -56,6 +56,12 @@ class GameController: UIViewController {
     //-----------------------------------
     
     @IBAction func buttonManager(_ sender: UIButton) {
+        if simoneBrain.aTimer == nil || simoneBrain.userTurnToPlay == nil {
+            return
+        }
+        simoneBrain.aTimer.invalidate()
+        timerLabel.text = ""
+        
         
         if !simoneBrain.userTurnToPlay{
             
